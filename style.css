@@ -1,0 +1,156 @@
+/* Body */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+}
+
+/* Header Section */
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Comic Sans MS", fantasy;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Bahnshrift", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Vani", serif;
+}
+
+/* Colors Section */
+
+.colors {
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.title {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background-color: indianred;
+    font-family: "Bahnshrift", sans-serif;
+}
+
+.indianred {
+    background-color: indianred;
+}
+
+.darkgray {
+    background-color: darkgray;
+}    
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+.indianred, .darkgray, .black, .white {
+    border: 1px solid black;
+    width: 400px;
+}
+
+/* Font Section */
+
+.fonts {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.comicsans {
+    font-family: "Comic Sans MS", fantasy;
+}
+
+.comicsans p {
+    font-family: "Comic Sans MS", fantasy;
+}
+
+.bahnshrift {
+    font-family: "Bahnshrift", sans-serif;
+}
+
+.bahnshrift p {
+    font-family: "Banhshrift", sans-serif;
+}
+
+.vani {
+    font-family: "Vani", serif;
+}
+
+.vani p {
+    font-family: "Vani", serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+/* Text Styles Section */
+
+.textstyles {
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+li {
+    font-family: "Vani", serif;
+    font-size: 14px;
+}
+
+.textstyles h1, .textstyles h2 {
+    text-align: left;
+    margin: auto;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+.textstyles .title {
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* Footer Section */
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
